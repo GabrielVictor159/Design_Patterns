@@ -9,6 +9,7 @@ using Design_Patterns.PadroesCriacionais.FactoryMethod.Product;
 using Design_Patterns.PadroesCriacionais.Prototype;
 using Design_Patterns.PadroesCriacionais.Singleton;
 using Design_Patterns.PadroesEstruturais.Decorator;
+using Design_Patterns.PadroesEstruturais.Decorator.Example1;
 
 
 // Padrões Criacionais:
@@ -22,6 +23,7 @@ using Design_Patterns.PadroesEstruturais.Decorator;
 // Padrões Estruturais:
 
 // MakeDecorator.make();
+// MakeDecorator2.make();
 
 
 // Padrões Comportamentais:
