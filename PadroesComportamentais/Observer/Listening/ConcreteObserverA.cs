@@ -1,6 +1,6 @@
-using Observer.Listening.Interfaces;
+using Design_Pattern.PadroesComportamentais.Observer.Listening.Interfaces;
 
-namespace Design_Patterns.PadroesCriacionais.Observer.Listening
+namespace Design_Pattern.PadroesComportamentais.Listening
 {
     public class ConcreteObserverA : IObserver
     {

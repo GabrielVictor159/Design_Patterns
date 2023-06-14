@@ -1,4 +1,5 @@
 ﻿
+using Design_Pattern.PadroesComportamentais.Observer;
 using Design_Pattern.PadroesComportamentais.Strategy;
 using Design_Pattern.PadroesComportamentais.Strategy.Interface;
 using Design_Patterns.PadroesCriacionais.Builder;
@@ -13,19 +14,17 @@ using Design_Patterns.PadroesEstruturais.Decorator;
 // Padrões Criacionais:
 
 // MakeBuilder.make();
-
 // MakeSingleton.make();
-
 // MakePrototype.make();
-
 // ClientFactoryMethod.Delivery(LogisticsType.Road, TransportType.Bicycle);
 
 
 // Padrões Estruturais:
 
-MakeDecorator.make();
+// MakeDecorator.make();
 
 
 // Padrões Comportamentais:
 
 // ClientStrategy.ApplyCouponStrategy(TipoDesconto.FreteGratis);
+// ObserverMethod.RunObserver("teste1", "teste2");

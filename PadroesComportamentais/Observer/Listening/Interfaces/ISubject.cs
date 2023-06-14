@@ -1,4 +1,4 @@
-namespace Observer.Listening.Interfaces
+namespace Design_Pattern.PadroesComportamentais.Observer.Listening.Interfaces
 {
     public interface ISubject
     {

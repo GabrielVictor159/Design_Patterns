@@ -1,6 +1,7 @@
-﻿using Design_Patterns.PadroesCriacionais.Observer.Listening;
+﻿using Design_Pattern.PadroesComportamentais.Listening;
+using Design_Pattern.PadroesComportamentais.Observer.Listening;
 
-namespace Design_Patterns.PadroesCriacionais.Observer
+namespace Design_Pattern.PadroesComportamentais.Observer
 {
     public class ObserverMethod
     {
