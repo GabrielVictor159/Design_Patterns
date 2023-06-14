@@ -9,12 +9,15 @@ namespace Design_Patterns.PadroesEstruturais.Decorator
     {
         public static void make()
         {
-            PersonagemMolde personagem = new Personagem("Gabriel");
+            PersonagemMolde personagem = new Personagem("Guerreiro");
             personagem.ToConsole();
+            Console.WriteLine("------------------------");
             personagem = new Sword(personagem);
             personagem.ToConsole();
+            Console.WriteLine("------------------------");
             personagem = new Shield(personagem);
             personagem.ToConsole();
+            Console.WriteLine("------------------------");
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿
+using Design_Pattern.PadroesComportamentais.Strategy;
+using Design_Pattern.PadroesComportamentais.Strategy.Interface;
 using Design_Patterns.PadroesCriacionais.Builder;
 using Design_Patterns.PadroesCriacionais.FactoryMethod;
 using Design_Patterns.PadroesCriacionais.FactoryMethod.Factory;
@@ -22,3 +24,8 @@ using Design_Patterns.PadroesEstruturais.Decorator;
 // Padrões Estruturais:
 
 MakeDecorator.make();
+
+
+// Padrões Comportamentais:
+
+// ClientStrategy.ApplyCouponStrategy(TipoDesconto.FreteGratis);
